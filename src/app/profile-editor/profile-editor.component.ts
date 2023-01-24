@@ -7,15 +7,4 @@ import { FormGroup, FormControl } from '@angular/forms';
   styleUrls: ['./profile-editor.component.css']
 })
 export class ProfileEditorComponent {
-
-  profileForm = new FormGroup ({
-
-
-    firstName: new FormControl(''),
-
-    lastName: new FormControl(''),
-
-
-  });
-
 }

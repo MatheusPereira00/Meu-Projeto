@@ -7,10 +7,6 @@ import { FormControl } from '@angular/forms';
 })
 export class ReactiveFormsComponent {
 
-  name = new FormControl('');
 
-  atualizarName() {
-    this.name.setValue('');
-  }
 
 }
