@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <form [formGroup]="cadastroForm" (ngSubmit)="submitForm()" >
+                <input type="text" formControlName="firstName">
+                <br>
+                <button>Enviar</button>
+                <br>
+                <input type="text" formControlName="lastName">
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
