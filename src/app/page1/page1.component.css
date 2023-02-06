@@ -1,0 +1,17 @@
+.example-card {
+    background-color: rgba(127, 148, 255, 0.315);
+    margin-top: 10px;
+    max-width: 400px;
+  }
+  
+.btns {
+    display: flex;
+    gap: 5px;
+  }
+
+.btn1 {
+    background-color: rgba(137, 43, 226, 0.301);
+}
+.btn2 {
+    background-color: rgba(137, 43, 226, 0.301);
+}
