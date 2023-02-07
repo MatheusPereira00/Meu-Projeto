@@ -5,6 +5,7 @@ import { Page3Component } from './page3/page3.component';
 import { HomeComponent } from './home/home.component';
 import { Page1Component } from './page1/page1.component';
 
+
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'pagina1', component: Page1Component},

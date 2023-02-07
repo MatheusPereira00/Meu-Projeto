@@ -17,6 +17,9 @@ import { DiretivaStrucDirective } from './directive/diretiva-struc';
 
 
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +31,8 @@ import { DiretivaStrucDirective } from './directive/diretiva-struc';
     Page3Component,
     FooterComponent,
     DiretivaStrucDirective,
+
+
   ],
   imports: [
     BrowserModule,

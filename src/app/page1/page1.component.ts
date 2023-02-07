@@ -7,11 +7,9 @@ import { Component, Input } from '@angular/core';
 })
 export class Page1Component {
 
-  @Input() subTitulo : string = '';
-  @Input() meuTitulo : string = '';
-  @Input() meuTexto : string =  '';
-  @Input() meuButton1 : string = '';
-  @Input() meuButton2 : string = '';
-  
-
+  @Input() subTitulo: string ='';
+  @Input() meuTitulo: string ='';
+  @Input() meuTexto: string ='';
+  @Input() meuButton1: string ='';
+  @Input() meuButton2: string ='';
 }
