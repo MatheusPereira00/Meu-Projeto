@@ -14,10 +14,8 @@ import { Page2Component } from './page2/page2.component';
 import { Page3Component } from './page3/page3.component';
 import { FooterComponent } from './footer/footer.component';
 import { DiretivaStrucDirective } from './directive/diretiva-struc';
-
-
-
-
+import { PessoasCreateComponent } from './pessoas-create/pessoas-create.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -31,6 +29,7 @@ import { DiretivaStrucDirective } from './directive/diretiva-struc';
     Page3Component,
     FooterComponent,
     DiretivaStrucDirective,
+    PessoasCreateComponent,
 
 
   ],
@@ -39,7 +38,8 @@ import { DiretivaStrucDirective } from './directive/diretiva-struc';
     AppRoutingModule,
     BrowserAnimationsModule,
     AngularMaterialModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

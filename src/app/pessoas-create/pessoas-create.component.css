@@ -1,0 +1,15 @@
+.card {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 400px;
+}
+.title {
+    text-align: center;
+    background-color: rgba(127, 180, 255, 0.594);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
