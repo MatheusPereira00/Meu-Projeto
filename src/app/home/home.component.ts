@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class HomeComponent {
 
 
+ 
+
   /*
     meuTitulo = 'Dog meuTitulo'
   subTitulo = 'Dog subTitulo'
